@@ -35,14 +35,12 @@
 // What are Object-oriented languages?
 // Object-oriented programming (OOP) arose as both a necessity and a beneficial paradigm. It was designed to tightly couple data with its related functionality while also allowing certain data to remain hidden (encapsulation).
 // This approach helps in organizing and managing complex software systems by representing real-world entities as objects that can interact with each other.
-// OOP encompasses a variety of concepts such as classes, objects, encapsulation, inheritance, polymorphism, abstraction, method overloading (Compile-Time Polymorphism), method overriding (Runtime Polymorphism), access modifiers, and constructors/destructors.
+
 
 
 // --------------------------------------------------------------------------------
 // --------------------------------------------------------------------------------
-// We have understood "What", now lets dig into how does it fit.
-/* role of JS in web-development */ 
-
+// We have understood what, now lets dig into how does it fit.
 // JavaScript is offten know as the third pillar of web-development with HTML and CSS.
 // Where HTML is responsible for the structure and CSS for its presentation, JS if the engine that makes it all interavtive and alive.
 // In Simpler words, if HTML is skeleton, CSS is the skin, then JS is the muscle that moves it all.
@@ -52,26 +50,23 @@
 
 // HTML builds the form, CSS makes it look nice, but none of them can tell the user that you have entered a duplicate email, here you’ll need JavaScript. It adds the brains to the form—handling things like validation, interactivity, and talking to the server if needed.
 
-// --------------------------------------------------------------------------------
-
 // JavaScript Releases :
 // ES5 -> ES6 (ES2015) -> ES7 (ES2016) -> ES8 (ES2017) -> ES9 (ES2018) -> ES10 (ES2019) -> ES11 (ES2020) -> ES12 (ES2021) -> ES13 (ES2022) -> ES14 (ES2023) -> ES15 (ES2024)
 
 // ES6 was the biggest updated and all version after and including this are know as morden javascript
-
-// --------------------------------------------------------------------------------
 
 
 
 // +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 // Please Skip this part if youa are a beginner, this is only for expirenced Software Developers.
 // +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+// OOP encompasses a variety of concepts such as classes, objects, encapsulation, inheritance, polymorphism, abstraction, method overloading (Compile-Time Polymorphism), method overriding (Runtime Polymorphism), access modifiers, and constructors/destructors.
 // Please note, Js might not support all the concepts of OOP in its entity, concepts like encapsulation, abstration, access modifiers are partially supported, while method overloading can be simulated, and concepts like destructors are not at all supported. (In js one can use cleanup patterns)
 // cleanup patterns are manual strategies to free up memory/resources and to avoid memory leaks in long-running application like browsers or servers.
 
 // Wait Wait Wati, didn't we say JS is a high-level language, and doesn't that mean we need not to think about memory ?
 // Introduction => ⚠️ Garbage Collector.
-// Yes memory release in handled automatically in high-level languages like JavaScript, thanks to garbage collection.
+// Yes memory release is handled automatically in high-level languages like JavaScript, thanks to garbage collection.
 // ⚠️ but that doesn't mean you are totally safe from memory issues.
 // What Garbage Collection (GC) Actually Does
 // Garbage collectors automatically free memory when an object is no longer reachable - meaning there are no more references to it in your code.
