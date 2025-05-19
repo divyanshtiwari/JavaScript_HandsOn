@@ -13,6 +13,7 @@ if(isOldEnough){
 }
 
 // lets get the century in which a person was born depending on the birth year
+// Please note, this is very basic century calculation and doesn't work of all birthYears.
 
 const birthYear = 1998;
 let century; // We'll have to define century outside of the if or else block as let is block scoped, that mean the variable defined with it, will get destroyed as soon as you are out of that block, and defining century in if or else block would destroy it by the time you try to print it out, so better to define outside of either of them so its available in the outer block.
