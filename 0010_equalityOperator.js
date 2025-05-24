@@ -47,3 +47,16 @@ if(favourite === 23) {
 if (favourite !== 23){
     console.log("Why not 23?");
 }
+
+if (23 != 23){
+    console.log("Why not 23? number != number");
+}
+if ("23" != 23){
+    console.log("Why not 23? string != number");
+}
+if (23 !== 23){
+    console.log("Why not 23? number !== number");
+}
+if ("23" !== 23){  // only this is true, because strict unequality.
+    console.log("Why not 23? string !== number");
+}
