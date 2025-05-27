@@ -47,3 +47,24 @@ function calAge1(birthYear){
 const age1 = calAge1(1998);
 console.log(age1);
 
+
+// functions calling other functions
+
+// You can call a function inside of another function.
+
+function cutFruitPieces(fruit) {
+    return fruit * 4;
+}
+
+
+function fruitJuiceProcessor(apples, oranges){
+    const applePieces = cutFruitPieces(apples);
+    const orangePieces = cutFruitPieces(oranges);
+    const juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of oranges.`;
+    return juice;
+}
+
+const juice = fruitJuiceProcessor(2,3);
+console.log(juice);
+
+
