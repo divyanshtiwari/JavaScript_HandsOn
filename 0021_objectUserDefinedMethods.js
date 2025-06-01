@@ -82,7 +82,7 @@ console.log("Not 56");
 // please note I am not talking about the below code.
 // you not creating a new object — you're simply creating a new reference to the same object in memory. So any changes made via jonas4 will also affect jonas2, and vice versa.
 
-// INVQ ---------------------
+// INTVQ ---------------------
 const jonas4 = jonas2;
 jonas4.birthYear = 1980;
 console.log(jonas2.birthYear);
@@ -200,7 +200,7 @@ console.log(jonasX);
 
 
 // NTM ----------------------
-// INVQ ---------------------
+// INTVQ ---------------------
 // Note to Myself : 
 // One thing that I saw, was function declared in the object had the function.name property filled, where as the getSummary function didn't have the name proeprty value.
 // it was an empty string. meaning this function is created anonymously.
