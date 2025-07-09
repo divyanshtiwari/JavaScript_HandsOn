@@ -55,7 +55,7 @@ let temp = null;
 // Becasue of this, here in js, its the value that has a type not a variable.
 // +++++++++++++++++++++++++++++++++++++++++++++++
 
-// note : as javaScript is a dynamicly typed language, that is variable that was associated with a number value can alwasy be reassociated with any of the other types, let say string. This can result in issue.
+// note : as javaScript is a dynamicly typed language, that is variable that was associated with a number value can always be reassociated with any of the other types, let say string. This can result in issue.
 // We can check the data type of a variable by the typeof operator
 console.log(typeof fname)
 console.log(typeof true)

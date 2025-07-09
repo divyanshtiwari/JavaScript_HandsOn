@@ -6,7 +6,7 @@
 // This in js will introduce strict mode, please note this has to be the first statement in the file apart from comments to enable strict mode.
 // if any code, statement or expression precedes this then strict mode won't get enabled.
 
-// we can also enable strict mode for only a function on a block of code, will look into it, but its adviceable to alwasy make the entire file use strict mode.
+// we can also enable strict mode for only a function on a block of code, will look into it, but its adviceable to always make the entire file use strict mode.
 
 // ============================ //
 // What does strict mode do ?
